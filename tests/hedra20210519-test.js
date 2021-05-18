@@ -1,5 +1,5 @@
 const {expect} = require('chai')
-const LadderCombinations = require('./hedra20210519')
+const LadderCombinations = require('../hedra20210519')
 const LadderCombinationsOptimal = require('./answers')
 
 xdescribe('LadderCombinations', () => {

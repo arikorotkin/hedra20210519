@@ -1,0 +1,15 @@
+{
+  "name": "hedra20210519",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hedra20210519.js",
+  "scripts": {
+    "test": "mocha --timeout 5000 \"./*-test.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  }
+}

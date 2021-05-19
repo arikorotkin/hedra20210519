@@ -37,30 +37,32 @@ xdescribe('LadderCombinations', () => {
     })
 })
 
-xdescribe('LadderCombinations where s is always 3', () => {
+const constS = 3
+
+xdescribe(`LadderCombinations where s is always ${constS}`, () => {
     it('test 9: r = 0', () => {
         const answer9 = LadderCombinations(0)
-        const optimal9 = LadderCombinationsOptimal(0, 3)
+        const optimal9 = LadderCombinationsOptimal(0, constS)
         expect(answer9).to.equal(optimal9)
     })
     it('test 10: r = 1', () => {
         const answer10 = LadderCombinations(1)
-        const optimal10 = LadderCombinationsOptimal(1, 3)
+        const optimal10 = LadderCombinationsOptimal(1, constS)
         expect(answer10).to.equal(optimal10)
     })
     it('test 11: r = 5', () => {
         const answer11 = LadderCombinations(5)
-        const optimal11 = LadderCombinationsOptimal(5, 3)
+        const optimal11 = LadderCombinationsOptimal(5, constS)
         expect(answer11).to.equal(optimal11)
     })
     it('test 12: r = 12', () => {
         const answer12 = LadderCombinations(12)
-        const optimal12 = LadderCombinationsOptimal(12, 3)
+        const optimal12 = LadderCombinationsOptimal(12, constS)
         expect(answer12).to.equal(optimal12)
     })
     it('test 13: r = 20', () => {
         const answer13 = LadderCombinations(20)
-        const optimal13 = LadderCombinationsOptimal(20, 3)
+        const optimal13 = LadderCombinationsOptimal(20, constS)
         expect(answer13).to.equal(optimal13)
     })
 })

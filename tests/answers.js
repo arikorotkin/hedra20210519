@@ -36,7 +36,7 @@ const brute3 = LadderCombinationsBrute(15, 1)
 const brute4 = LadderCombinationsBrute(0, 3)
 const brute5 = LadderCombinationsBrute(0, 1)
 const brute6 = LadderCombinationsBrute(8, 3)
-const brute7 = LadderCombinationsBrute(20, 4) /* should fail!!! */
+const brute7 = LadderCombinationsBrute(20, 4)
 const brute8 = LadderCombinationsBrute(3, 4)
 
 const optimal1 = LadderCombinationsOptimal(4, 2)

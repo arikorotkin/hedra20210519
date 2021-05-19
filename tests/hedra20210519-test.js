@@ -37,7 +37,7 @@ xdescribe('LadderCombinations', () => {
     })
 })
 
-const constS = 3
+const constS = 2
 
 xdescribe(`LadderCombinations where s is always ${constS}`, () => {
     it('test 9: r = 0', () => {

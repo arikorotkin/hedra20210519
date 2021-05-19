@@ -19,7 +19,7 @@ Therefore, your function should return 5.
 0 ≤ r ≤ 20
 1 ≤ s ≤ 4
 
-FOR A SIMPLER VERSION OF THIS PROBLEM, ASSUME s IS ALWAYS 3.
+FOR A SIMPLER VERSION OF THIS PROBLEM, ASSUME s IS ALWAYS 2.
 */
 
 function LadderCombinations(r, s) {
